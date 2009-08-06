@@ -1,0 +1,321 @@
+Multichar_Symbols
++V +N +A +NM
++SC +Pres +Fut +Pers +Pot +OC +Lat +Past +Cons +Refl
++Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3 
++CL1 +CL2 +CL3 +CL4 +CL5 +CL6 +CL7 +CL8 +CL9 +CL10 +CL14 +CL15
++IW +EL +Iq +AN +AL +EG +OLL +OG +AK +AR +AM +ALAL +AFAL +FAL +GO
++FNA +FNE +Loc
++1^1/2 +2^1/2 +1a^1a/2a +2a^1a/2a +3^3/4 +4^3/4 +5^5/6 +6^5/6 +7^7/8 +8^7/8
+9^9/10 +10^9/10 +14^14/6 +6^14/6 +15 +16 +17 +18
+
+!mo ba bÙ mo me le ma se di N diN bo fa go 
+!ga sa re ke wa ya la tqa bja gwa
+! not a good idea to declare these.
+
+! We tag the affixes themselves, in order not to look into the linguistics
+! FNA and FNE are the final forms
+
+LEXICON Root
+!VerbRoot ; ! No more VerbRoot here, we have a prefix!!! (OCPref)
+!NounRoot ; ! No nounroot at all
+!AdjRoot ; ! adj as daughter of NCL etc.
+VerbPart ;
+VPref ;
+NCL ;
+
+! NOUNS
+! =====
+
+! The class prefixes
+! ------------------
+
+LEXICON NCL
+mo+1^1/2+:mo NCL1/2 ;
+ba+2^1/2+:ba NCL1/2 ;
++1a^1a/2a+:0 NCL1a/2a ;
+bÙ+2a^1a/2a+:bÙ NCL1a/2a ;
+mo+3^3/4+:mo NCL3/4 ;
+me+4^3/4+:me NCL3/4 ;
+le+5^5/6+:le NCL5/6 ;
+ma+6^5/6+:ma NCL5/6 ;
+se+7^7/8+:se NCL7/8 ;
+di+8^7/8+:di NCL7/8 ;
+N+9^9/10+:n NCL9/10 ;
+diN+10^9/10+:din NCL9/10 ;
+bo+14^14/6+:bo NCL14/6 ;
+ma+6^14/6+:ma NCL14/6 ;
+!go+15+:go NCL15 ; ! hey, this is the verb class
+fa+16+:fa NCL16 ;
+go+17+:go NCL17 ;
+mo+18+:mo NCL18 ;
+AdjRoot ; ! this to get the adj stems
+
+! The nouns, waiting for their own file(s)
+! ---------------------------------------- 
+
+LEXICON NCL1/2 
+sadi NDim ;
+tho NDim ;
+AdjRoot ;
+
+LEXICON NCL1a/2a 
+rrangwane  NDim ;
+mma NDim ;
+!AdjRoot ;
+!No adjectives in 1a/2a
+
+LEXICON NCL3/4 
+sela NDim ;
+AdjRoot ;
+
+LEXICON NCL5/6 
+sÙgana NDim ;
+AdjRoot ;
+
+LEXICON NCL7/8 
+atla NDim ;
+AdjRoot ;
+
+LEXICON NCL9/10 
+ku NDim ;
+p£a NDim ;
+kgo£i NDim ;
+AdjRoot ;
+
+LEXICON NCL14/6 
+gÙbÍ NDim ;
+AdjRoot ;
+
+!LEXICON NCL15 
+
+LEXICON NCL16 
+se NDim ;
+AdjRoot ;
+
+LEXICON NCL17 
+dimo NDim ;
+AdjRoot ;
+
+LEXICON NCL18 
+rago NDim ;
+AdjRoot ;
+
+
+! The postnominal morphology
+! --------------------------
+
+LEXICON NDim
++N+Dim:ana NAug ;
++N+Dim:nyana NAug ;
++N+Aug # ;
++N: # ;
+
+LEXICON NAug
+!+Aug: NLoc ;
+NLoc ;
+# ;
+
+LEXICON NLoc
++Loc:go # ;
++Loc:ng # ;
+# ;
+
+
+
+! Adjectives
+! ==========
+
+LEXICON AdjRoot
+be A ;
+bjalo A ;
+bjang A ;
+botse A ;
+bÍdi A ;
+fsa A ;
+golo A ;
+hlano A ;
+hubÍdu A ;
+kaaka A ;
+kaakang A ;
+kae A ;
+koto A ;
+kÙpana A ;
+ngwÍ A ;
+nt£i A ;
+nyane A ;
+nÍ A ;
+raro A ;
+so A ;
+sÍhla A ;
+sÍsÍ A ;
+tala A ;
+tala A ;
+thata A ;
+tona A ;
+tshadi A ;
+tÍlÍlÍ A ;
+£wÍu A ;
+
+LEXICON A
++A:0 # ;
+ 
+! VERBS
+! =====
+
+! Storing the VerbRoot members in a separate file
+! But today we have some tests here
+
+LEXICON VPref
+n+OC+Sg1+:n VerbRoot ;
+i+Refl+:i VerbRoot ;
+i+Refl+n+OC+Sg1+:in VerbRoot ;
+VerbRoot ;
+
+LEXICON VerbRoot
+arab V ;
+bÙn V ;
+dir V ;
+for V ;
+fÍl V ;
+gopot£ V ;
+hlÙmph V ;
+hum V ;
+i£ V ;
+j V ;
+jÍ£ V ;
+kgop V ;
+kgÍth V ;
+lom V ;
+makat£ V ;
+mon V ;
+mÙn V ;
+neÍl V ;
+obe V ;
+pal V ;
+rat V ;
+rÍk V ;
+sepel V ;
+tseb V ;
+u£ V ;
+wÍt£ V ;
+£upÍt£ V ;
+Ím V ;
+ÍtÍl V ;
+ÙpÍd V ;
+
+
+!LEXICON VB
+!+V+OC+Sg1 VExt ;
+!VExt ;
+! The b-initials, cf. p. 26, 1st years...
+
+LEXICON V
++V: VExt ;
+
+LEXICON VExt
+ +IW:iw VExt ;
+ +EL:el VExt ;
+ +Iq:iq VExt ;
+ +AN:an VExt ;
+ +AL:al VExt ;
+ +EG:eg VExt ;
+ +OLL:oll VExt ;
+ +OG:og VExt ;
+ +AK:ak VExt ;
+ +AR:ar VExt ;
+ +AM:am VExt ;
+ +ALAL:alal VExt ;
+ +AFAL:afal VExt ;
+ +FAL:fal VExt ;
+ +GO:go VExt ;
+ VNext ; 
+
+LEXICON VNext
+ +Past:ile # ;
+ +FNA:a # ;
+ +FNE:e # ;
+
+LEXICON VerbPart
+
+
+! ontkenningsmorfeme
+! ------------------
+
+ga+NM:ga # ;
+sa+NM:sa # ;
+se+NM:se # ;
+ga% se+NM:ga% se # ;
+
+
+! onderwerpskakels
+! ----------------
+
+ke+SC+Sg1:ke # ;
+re+SC+Pl1:re # ;
+o+SC+Sg2:o # ;
+le+SC+Pl2:le # ;
+o+SC+CL1:o # ;
+ba+SC+CL2:ba # ;
+o+SC+CL3:o # ;
+e+SC+CL4:e # ;
+le+SC+CL5:le # ;
+a+SC+CL6:a # ;
+se+SC+CL7:se # ;
+di+SC+CL8:di # ;
+e+SC+CL9:e # ;
+di+SC+CL10:di # ;
+bo+SC+CL14:bo # ;
+go+SC+CL15:go # ;
+
+
+! konsekutieve skakels
+! --------------------
+
+ka+SC+Sg1+Cons:ka # ;
+ra+SC+Pl1+Cons:ra # ;
+wa+SC+Sg2+Cons:wa # ;
+la+SC+Pl2+Cons:la # ;
+a+SC+CL1+Cons:a # ;
+ba+SC+CL2+Cons:ba # ;
+wa+SC+CL3+Cons:wa # ;
+ya+SC+CL4+Cons:ya # ;
+la+SC+CL5+Cons:la # ;
+a+SC+CL6+Cons:a # ;
+sa+SC+CL7+Cons:sa # ;
+tqa+SC+CL8+Cons:tqa # ;
+ya+SC+CL9+Cons:ya # ;
+tqa+SC+CL10+Cons:tqa # ;
+bja+SC+CL14+Cons:bja # ;
+gwa+SC+CL15+Cons:gwa # ;
+
+
+! Andere 
+! ------
+
+a+Pres:a # ;
+tlo+Fut:tlo # ;
+tla+Fut:tla # ;
+sa+Pers:sa # ;
+ka+Pot:ka # ;
+e+Lat:e # ;
+
+
+! Voorwerpsskakels
+! ----------------
+
+n+OC+Sg1:n # ;
+re+OC+Pl1:re # ;
+go+OC+Sg2:go # ;
+le+OC+Pl2:le # ;
+mo+OC+CL1:mo # ;
+ba+OC+CL2:ba # ;
+o+OC+CL3:o # ;
+e+OC+CL4:e # ;
+le+OC+CL5:le # ;
+a+OC+CL6:a # ;
+se+OC+CL7:se # ;
+di+OC+CL8:di # ;
+e+OC+CL9:e # ;
+di+OC+CL10:di # ;
+bo+OC+CL14:bo # ;
+go+OC+CL15:go # ;
