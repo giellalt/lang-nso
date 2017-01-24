@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+datadir=@datarootdir@
+gtlang=nso
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-nso
+Description: Finite-state language processing tools for Pedi
+URL: http://divvun.no/doc/index.html
+Version: @VERSION@
