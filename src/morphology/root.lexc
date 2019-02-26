@@ -22,6 +22,8 @@ LEXICON Root
 VerbPart ;
 VPref ;
 NCL ;
+Punctuation ;
+Symbols     ;
 
 ! NOUNS
 ! =====
