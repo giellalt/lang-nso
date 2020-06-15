@@ -1,0 +1,146 @@
+ 
+! VERBS
+! =====
+
+! Storing the VerbRoot members in a separate file
+! But today we have some tests here
+
+
+! =====================================
+! ===========   Prefixes   ============
+! =====================================
+
+
+LEXICON VPref
+n+OC+Sg1+:n VerbRoot ;
+i+Refl+:i VerbRoot ;
+i+Refl+n+OC+Sg1+:in VerbRoot ;
+VerbRoot ;
+
+
+
+! ... the verbstems are in ../stems/verbs.lexc
+
+
+
+! =====================================
+! ===========   Suffixes   ============
+! =====================================
+
+
+
+!LEXICON VB
+!+V+OC+Sg1 VExt ;
+!VExt ;
+! The b-initials, cf. p. 26, 1st years...
+
+LEXICON V
++V: VExt ;
+
+LEXICON VExt
+ +IW:iw VExt ;
+ +EL:el VExt ;
+ +Iq:iq VExt ;
+ +AN:an VExt ;
+ +AL:al VExt ;
+ +EG:eg VExt ;
+ +OLL:oll VExt ;
+ +OG:og VExt ;
+ +AK:ak VExt ;
+ +AR:ar VExt ;
+ +AM:am VExt ;
+ +ALAL:alal VExt ;
+ +AFAL:afal VExt ;
+ +FAL:fal VExt ;
+ +GO:go VExt ;
+ VNext ; 
+
+LEXICON VNext
+ +Past:ile # ;
+ +FNA:a # ;
+ +FNE:e # ;
+
+LEXICON VerbPart
+
+
+! ontkenningsmorfeme
+! ------------------
+
+ga+NM:ga # ;
+sa+NM:sa # ;
+se+NM:se # ;
+ga% se+NM:ga% se # ;
+
+
+! onderwerpskakels
+! ----------------
+
+ke+SC+Sg1:ke # ;
+re+SC+Pl1:re # ;
+o+SC+Sg2:o # ;
+le+SC+Pl2:le # ;
+o+SC+CL1:o # ;
+ba+SC+CL2:ba # ;
+o+SC+CL3:o # ;
+e+SC+CL4:e # ;
+le+SC+CL5:le # ;
+a+SC+CL6:a # ;
+se+SC+CL7:se # ;
+di+SC+CL8:di # ;
+e+SC+CL9:e # ;
+di+SC+CL10:di # ;
+bo+SC+CL14:bo # ;
+go+SC+CL15:go # ;
+
+
+! konsekutieve skakels
+! --------------------
+
+ka+SC+Sg1+Cons:ka # ;
+ra+SC+Pl1+Cons:ra # ;
+wa+SC+Sg2+Cons:wa # ;
+la+SC+Pl2+Cons:la # ;
+a+SC+CL1+Cons:a # ;
+ba+SC+CL2+Cons:ba # ;
+wa+SC+CL3+Cons:wa # ;
+ya+SC+CL4+Cons:ya # ;
+la+SC+CL5+Cons:la # ;
+a+SC+CL6+Cons:a # ;
+sa+SC+CL7+Cons:sa # ;
+tqa+SC+CL8+Cons:tqa # ;
+ya+SC+CL9+Cons:ya # ;
+tqa+SC+CL10+Cons:tqa # ;
+bja+SC+CL14+Cons:bja # ;
+gwa+SC+CL15+Cons:gwa # ;
+
+
+! Andere 
+! ------
+
+a+Pres:a # ;
+tlo+Fut:tlo # ;
+tla+Fut:tla # ;
+sa+Pers:sa # ;
+ka+Pot:ka # ;
+e+Lat:e # ;
+
+
+! Voorwerpsskakels
+! ----------------
+
+n+OC+Sg1:n # ;
+re+OC+Pl1:re # ;
+go+OC+Sg2:go # ;
+le+OC+Pl2:le # ;
+mo+OC+CL1:mo # ;
+ba+OC+CL2:ba # ;
+o+OC+CL3:o # ;
+e+OC+CL4:e # ;
+le+OC+CL5:le # ;
+a+OC+CL6:a # ;
+se+OC+CL7:se # ;
+di+OC+CL8:di # ;
+e+OC+CL9:e # ;
+di+OC+CL10:di # ;
+bo+OC+CL14:bo # ;
+go+OC+CL15:go # ;
