@@ -1,0 +1,50 @@
+! The nouns
+! ---------
+
+LEXICON NCL1/2 
+sadi NDim ;
+tho NDim ;
+AdjRoot ;
+
+LEXICON NCL1a/2a 
+rrangwane  NDim ;
+mma NDim ;
+!AdjRoot ;
+!No adjectives in 1a/2a
+
+LEXICON NCL3/4 
+sela NDim ;
+AdjRoot ;
+
+LEXICON NCL5/6 
+sÙgana NDim ;
+AdjRoot ;
+
+LEXICON NCL7/8 
+atla NDim ;
+AdjRoot ;
+
+LEXICON NCL9/10 
+ku NDim ;
+p£a NDim ;
+kgo£i NDim ;
+AdjRoot ;
+
+LEXICON NCL14/6 
+gÙbÍ NDim ;
+AdjRoot ;
+
+!LEXICON NCL15 
+
+LEXICON NCL16 
+se NDim ;
+AdjRoot ;
+
+LEXICON NCL17 
+dimo NDim ;
+AdjRoot ;
+
+LEXICON NCL18 
+rago NDim ;
+AdjRoot ;
+
