@@ -10,7 +10,8 @@ authors named in the AUTHORS file are available to grant other licencing
 choices.
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-nso)](https://github.com/giellalt/lang-nso/issues)
- [![Build Status](https://github.com/giellalt/lang-nso/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-nso/actions)
+[![Build Status](https://github.com/giellalt/lang-nso/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-nso/actions)
+[![License](https://img.shields.io/github/license/giellalt/template-lang-nso)](https://raw.githubusercontent.com/giellalt/lang-nso/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-nso)
 for the Pedi language by using the [Divvun Installer](http://divvun.no)
