@@ -3,7 +3,7 @@ The Pedi morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-nso)](https://github.com/giellalt/lang-nso/issues)
 [![Build Status](https://github.com/giellalt/lang-nso/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-nso/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-nso)](https://raw.githubusercontent.com/giellalt/lang-nso/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-nso)](https://github.com/giellalt/lang-nso/blob/main/LICENSE)
 
 This repository contains finite state source files for the Pedi language,
 for building morphological analysers, proofing tools
