@@ -606,7 +606,7 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-nso/blob/main/../src/cg3/functions.cg3)</small> * +Symbol = independent symbols in the text stream, like £, €, ©
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-nso/blob/main/../src/cg3/functions.cg3)</small>* +Symbol© = independent symbols in the text stream, like £, €, ©
 
 
 
