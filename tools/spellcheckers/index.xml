@@ -2,7 +2,7 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>nso</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Pedi</title>
+    <title>Pedi</title>
     <description>This is an fst-based speller for Pedi. It is based
     on the normative subset of the morphological analyser for Pedi.
     The source code can be found at:
