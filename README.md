@@ -1,12 +1,12 @@
 The Pedi morphology and tools
 ==========================================
 
-[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-nso%2Fgh-pages%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
-![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-nso%2Fgh-pages%2Fbadgedata%2Ffst-lemmacount.json)
+[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-nso%2Fmain%2Fdocs%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-nso%2Fmain%2Fdocs%2Fbadgedata%2Ffst-lemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-nso)](https://github.com/giellalt/lang-nso/issues)
 [![License](https://img.shields.io/github/license/giellalt/lang-nso)](https://github.com/giellalt/lang-nso/blob/main/LICENSE)
-[![Doc Build Status](https://github.com/giellalt/lang-nso/workflows/Docs/badge.svg)](https://github.com/giellalt/lang-nso/actions)
-[![CI/CD Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-nso/main/badge.svg)](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-nso/main/latest)
+[![Doc build](https://img.shields.io/github/actions/workflow/status/giellalt/lang-nso/docs.yml?logo=github&label=DocCI)](https://github.com/giellalt/lang-nso/actions/workflows/docs.yml)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-nso?logo=buildkite&label=CoreCI)](https://builds.giellalt.org/pipelines/lang-nso/builds/latest)
 
 Download nightly / CI/CD installation packages for testing (contains the core zhfst file(s)):
 
